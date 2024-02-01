@@ -21,7 +21,8 @@ function MoviePlaylist() {
 
   const renderedMovies = moviePlaylist.map((movie) => {
     return (
-      <li key={movie}>
+      <div className="mplaylist"> 
+        <li key={movie}>
         {movie}
         <button
           onClick={() => handleMovieRemove(movie)}
@@ -30,6 +31,7 @@ function MoviePlaylist() {
           X
         </button>
       </li>
+      </div>
     );
   });
 

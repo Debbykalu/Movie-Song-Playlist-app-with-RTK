@@ -1,35 +1,73 @@
 ul {
-    list-style-type: none !important;
-    margin: 0 !important;
-  }
-  
-  .content ul li:first-of-type {
-    border-top: 1px solid #ddd;
-  }
-  
-  .content ul li {
-    border-bottom: 1px solid #ddd;
-    padding: 4px;
-    margin: 0 !important;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-transform: capitalize;
-  }
-  
-  h3 {
-    margin: 0 !important;
-  }
-  
-  .table-header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 20px;
-  }
-  
-  .container > button {
-    margin-top: 10px;
-  }
-  
+  list-style-type: none !important;
+  margin: 0 !important;
+}
+
+.app-wrapper{
+  width: 600px;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+  padding: 30px;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+}
+
+.content ul li:first-of-type {
+  border-top: 1px solid #ddd;
+}
+
+.content ul li {
+  border-bottom: 1px solid #ddd;
+  padding: 4px;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+h3 {
+  margin: 0 !important;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.table-header button{
+  padding: 12px;
+  background-color: #2196F3;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.app-wrapper > button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.mplaylist .is-danger{
+  padding: 12px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.splaylist .is-danger{
+  padding: 12px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}

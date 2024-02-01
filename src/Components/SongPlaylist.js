@@ -22,7 +22,8 @@ function SongPlaylist() {
 
   const renderedSongs = songPlaylist.map((song) => {
     return (
-      <li key={song}>
+      <div className="splaylist">
+        <li key={song}>
         {song}
         <button
           onClick={() => handleSongRemove(song)}
@@ -31,6 +32,7 @@ function SongPlaylist() {
           X
         </button>
       </li>
+      </div>
     );
   });
 
